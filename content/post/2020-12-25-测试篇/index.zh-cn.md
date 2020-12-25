@@ -65,6 +65,9 @@ prevent printing of the R code that generated the plot.
 
 ## 公式
 
+
+连享会[^连享会]
+
 同行公式： $y=x^{2}$
 
 独行公式：
@@ -73,3 +76,22 @@ $$y=x^{3}$$
 ## 插入图片
 
 ![](https://gitee.com/shao818/Figure/raw/master/null/ABTAD0A2EF7324A135F7A1D705AD765A3F43D63062AFA52F47EA6BFA5566B468D32.jpg)
+
+
+## Footnote
+
+This is a footnote[^1]
+
+A footnote on "label"[^label]
+
+The footnote for definition[^!DEF]
+
+A footnote with link[^pa]
+
+
+
+[^1]: This is a footnote
+[^label]: A footnote on "label"
+[^pa]: [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[^!DEF]: The footnote for definition
+[^连享会]: [连享会](https://www.lianxh.cn/news/d4d5cd7220bc7.html)
