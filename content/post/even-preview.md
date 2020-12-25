@@ -13,7 +13,7 @@ tags:
 - preview
 - Theme preview
 - tag-3
-title: Theme preview
+title: 主题使用概览
 weight: 10
 ---
 

@@ -35,4 +35,6 @@ sequenceDiagrams:
 
 
 # 测试博客
-## 
+## 插入视频
+
+{{< bilibili BV1RE411b71v >}}
