@@ -16,7 +16,7 @@ toc: true
 ---
 
 <!--more-->
-{{% bilibili "BV16p4y1r7aY" %}}
+{{% bilibili "BV1H7411q74s" %}}
 <div align=center> 
 <font size=5 color=#C46657 face="仿宋">目录</font>
 </div>
@@ -49,7 +49,7 @@ toc: true
 
 原子型向量就是最简单的包含数据的向量，在R中以下均是原子型向量:
 
-``` r
+```r
 x <- 1
 y <- 1:6
 z <- c(1,2,3,4,5,6)
