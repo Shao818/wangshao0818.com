@@ -1,5 +1,5 @@
 ---
-title: 数据科学
+title: 数据科学Ⅰ
 author: 王芍
 date: '2020-12-25'
 slug: []
@@ -17,8 +17,10 @@ toc: true
 
 <!--more-->
 {{% bilibili "BV16p4y1r7aY" %}}
-<font color=blue> 
-<div align=center>目录 </div> </font>
+<div align=center> 
+<font size=5 color=#C46657 face="仿宋">目录</font>
+</div>
+
 ================================================================================
 
   - [原子型向量](#原子型向量)
