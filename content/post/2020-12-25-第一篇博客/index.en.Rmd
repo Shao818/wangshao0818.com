@@ -37,4 +37,27 @@ sequenceDiagrams:
 # 测试博客
 ## 插入视频
 
-{{< bilibili BV1RE411b71v >}}
+{{< bilibili BV16p4y1r7aY >}}
+
+## 插入单曲音乐
+
+{{% music "28196554" %}}
+
+## 插入多首音乐
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=110 src="//music.163.com/outchain/player?type=0&id=5187397217&auto=1&height=90"></iframe>
+
+## 同行公式
+
+同行公式：$y=x^{2}+z_{i,t}$
+
+
+## 同行公式
+
+独行公式：$$y=x^{2}+z_{i,t}$$
+
+## 插入图片
+
+![](https://gitee.com/shao818/Figure/raw/master/null/ABTAD0A2EF7324A135F7A1D705AD765A3F43D63062AFA52F47EA6BFA5566B468D32.jpg)
+
+<div align=center> 美图 1</div>
