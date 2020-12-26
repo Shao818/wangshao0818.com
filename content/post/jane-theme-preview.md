@@ -1,9 +1,10 @@
 ---
-author: Typora
+title: Jane主题预览
+author: 王芍
 categories:
-- docs
-- shortcodes
-- index
+- 主题
+- Jane
+- 公式
 contentCopyright: <a href="https://github.com/gohugoio/hugoBasicExample" rel="noopener"
   target="_blank">See origin</a>
 date: "2018-01-01T16:01:23+08:00"
@@ -18,9 +19,11 @@ tags:
 - preview
 - shortcodes
 - tag-6
-title: Jane Theme Preview
+
 weight: 1
 ---
+
+## 1.主题预览
 
 **Markdown** is created by [Daring Fireball](http://daringfireball.net/), the original guideline is [here](http://daringfireball.net/projects/markdown/syntax). Its syntax, however, varies between different parsers or editors.
 
@@ -28,13 +31,13 @@ Please note that HTML fragments in markdown source will be recognized but not pa
 
 <!--more-->
 
-## Paragraph and line breaks
+### Paragraph and line breaks
 
 A paragraph is simply one or more consecutive lines of text. In markdown source code, paragraphs are separated by more than one blank lines. In Typora, you only need to press `Return` to create a new paragraph.
 
 Press `Shift` + `Return` to create a single line break. However, most markdown parser will ignore single line break, to make other markdown parsers recognize your line break, you can leave two whitespace at the end of the line, or insert `<br/>`.
 
-## Headers
+### Headers
 
 Headers use 1-6 hash characters at the start of the line, corresponding to header levels 1-6. For example:
 
@@ -48,7 +51,7 @@ Headers use 1-6 hash characters at the start of the line, corresponding to heade
 
 In typora, input ‘#’s followed by title content, and press `Return` key will create a header.
 
-## Blockquotes
+### Blockquotes
 
 Markdown uses email-style > characters for block quoting. They are presented as:
 
@@ -65,7 +68,7 @@ Markdown uses email-style > characters for block quoting. They are presented as:
 
 In typora, just input ‘>’ followed by quote contents a block quote is  generated. Typora will insert proper ‘>’ or line break for you. Block quote inside anther block quote is allowed by adding additional levels of ‘>’.
 
-## Lists
+### Lists
 
 Input `* list item 1` will create an un-ordered list, the `*` symbol can be replace with `+` or `-`.
 
@@ -80,7 +83,7 @@ Input `1. list item 1` will create an ordered list, their markdown source code i
 3. Blue
 
 
-## Task List
+### Task List
 
 Task lists are lists with items marked as either `[ ]` or `[x]` (incomplete or complete). For example:
 
@@ -92,7 +95,7 @@ Task lists are lists with items marked as either `[ ]` or `[x]` (incomplete or c
 
 You can change the complete/incomplete state by click the checkbox before the item.
 
-## Syntax Highlighting
+### Syntax Highlighting
 
 ```js
 function helloWorld () {
@@ -108,7 +111,7 @@ public class HelloWorld {
 }
 ```
 
-## Math Blocks
+### Math Blocks
 
 You can render *LaTeX* mathematical expressions using **MathJax**.
 
@@ -134,7 +137,7 @@ $$
 $$
 ```
 
-## Tables
+### Tables
 
 Input `| First Header  | Second Header |` and press `return` key will create a table with two column.
 
@@ -163,7 +166,7 @@ In markdown source code, they look like:
 | <u>Underline</u>  | `<u>underline</u>`  | `<u></u>`            |
 
 
-## Footnotes
+### Footnotes
 
 ``` markdown
 You can create footnotes like this[^footnote].
@@ -179,13 +182,13 @@ You can create footnotes like this[^footnote].
 
 Mouse on the ‘footnote’ superscript to see content of the footnote.
 
-## Horizontal Rules
+### Horizontal Rules
 
 Input `***` or `---` on a blank line and press `return` will draw a horizontal line.
 
 ------
 
-## Links
+### Links
 
 Markdown supports two style of links: inline and reference.
 
@@ -240,7 +243,7 @@ And then define the link:
 
 In typora click link will expand it for editing, command+click will open the hyperlink in web browser.
 
-## URLs
+### URLs
 
 Typora allows you to insert urls as links, wrapped by `<`brackets`>`.
 
@@ -248,7 +251,7 @@ Typora allows you to insert urls as links, wrapped by `<`brackets`>`.
 
 Typora will aslo auto link standard URLs. e.g: www.google.com.
 
-## Images
+### Images
 
 Image looks similar with links, but it requires an additional `!` char before the start of link. Image syntax looks like this:
 
@@ -262,7 +265,7 @@ You are able to use drag & drop to insert image from image file or we browser. A
 
 For more tips on images, please read <http://support.typora.io//Images/>
 
-## Emphasis
+### Emphasis
 
 Markdown treats asterisks (`*`) and underscores (`_`) as indicators of emphasis. Text wrapped with one `*` or `_` will be wrapped with an HTML `<em>` tag. E.g:
 
@@ -292,7 +295,7 @@ To produce a literal asterisk or underscore at a position where it would otherwi
 
 Typora recommends to use `*` symbol.
 
-## Strong
+### Strong
 
 double *’s or _’s will be wrapped with an HTML `<strong>` tag, e.g:
 
@@ -310,7 +313,7 @@ __double underscores__
 
 Typora recommends to use `**` symbol.
 
-## Code
+### Code
 
 To indicate a span of code, wrap it with backtick quotes (`). Unlike a pre-formatted code block, a code span indicates code within a normal paragraph. For example:
 
@@ -322,26 +325,26 @@ will produce:
 
 Use the `printf()` function.
 
-## Strikethrough
+### Strikethrough
 
 GFM adds syntax to create strikethrough text, which is missing from standard Markdown.
 
 `~~Mistaken text.~~` becomes ~~Mistaken text.~~
 
-## Underline
+### Underline
 
 Underline is powered by raw HTML.
 
 `<u>Underline</u>` becomes <u>Underline</u>.
 
-## Emoji :happy:
+### Emoji :happy:
 
 Input emoji with syntax `:smile:`.
 
 User can trigger auto-complete suggestions for emoji by pressing `ESC` key, or trigger it automatically after enable it on preference panel. Also, input UTF8 emoji char directly from `Edit` -> `Emoji & Symbols` from menu bar is also supported.
 
 
-## Inline Math
+### Inline Math
 
 To use this feature, first, please enable it in `Preference` Panel -> `Markdown` Tab. Then use `$` to wrap TeX command, for example: `$\lim_{x \to \infty} \exp(-x) = 0$` will be rendered as LaTeX command.
 
