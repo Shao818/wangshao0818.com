@@ -1,19 +1,21 @@
 ---
-author: Michael Henderson
-autoCollapseToc: true
-categories:
-- English
-- index
-contentCopyright: <a href="https://github.com/gohugoio/hugoBasicExample" rel="noopener"
-  target="_blank">See origin</a>
-date: "2017-08-31T15:43:48+08:00"
+title: "English Creating a New Theme"
+date: 2017-08-31T15:43:48+08:00
+lastmod: 2017-08-31T15:43:48+08:00
 draft: false
-lastmod: "2017-08-31T15:43:48+08:00"
-tags:
-- preview
-- English
-- tag-2
-title: English Creating a New Theme
+tags: ["preview", "English", "tag-2"]
+categories: ["English", "index"]
+author: "Michael Henderson"
+
+# You can also close(false) or open(true) something for this content.
+# P.S. comment can only be closed
+# comment: false
+# toc: false
+autoCollapseToc: true
+# You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
+contentCopyright: '<a href="https://github.com/gohugoio/hugoBasicExample" rel="noopener" target="_blank">See origin</a>'
+# reward: false
+# mathjax: false
 ---
 
 ## Introduction

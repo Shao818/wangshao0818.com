@@ -1,20 +1,24 @@
 ---
-categories:
-- Syntax Highlighting
-- index
-date: "2011-08-30T16:01:23+08:00"
+title: "Syntax Highlighting"
+date: 2011-08-30T16:01:23+08:00
+lastmod: 2017-08-30T16:01:23+08:00
 draft: false
-lastmod: "2017-08-30T16:01:23+08:00"
+tags: ["preview", "Syntax Highlighting", "tag-5"]
+categories: ["Syntax Highlighting", "index"]
+
+# You can also close(false) or open(true) something for this content.
+# P.S. comment can only be closed
+# comment: false
+toc: false
+# You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
+# contentCopyright: false
+# reward: false
+# mathjax: false
+
 menu:
   main:
-    parent: docs
+    parent: "docs"
     weight: 4
-tags:
-- preview
-- Syntax Highlighting
-- tag-5
-title: Syntax Highlighting
-toc: false
 ---
 
 More detail: [Syntax Highlighting | Hugo](https://gohugo.io/content-management/syntax-highlighting/)
