@@ -26,7 +26,7 @@ weight: 50
 
 ------
 - <font face="仿宋" color=#BF5442 size=3>**IDE**</font>  
-  * <font face="仿宋"  size=2>[Jupyter](https://www.lianxh.cn/news/1b7c55f899314.html)`Jupyter`优点在于兼容多种开发环境，方便生成汇报文档。</font>
+  * <font face="仿宋"  size=2>[Jupyter](https://www.lianxh.cn/news/1b7c55f899314.html)：`Jupyter`优点在于兼容多种开发环境，方便生成汇报文档。</font>
 
   
 - <font face="仿宋" color=#BF5442  size=2>**R语言**</font>  
