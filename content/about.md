@@ -26,17 +26,18 @@ weight: 50
 
 ------
 - <font face="仿宋" color=#BF5442 size=3>**IDE**</font>  
-  * <font face="仿宋"  size=2>【[Jupyter](https://www.lianxh.cn/news/1b7c55f899314.html)】`Jupyter`优点在于兼容多种开发环境，方便生成汇报文档。</font>
+  * <font face="仿宋"  size=2>[Jupyter](https://www.lianxh.cn/news/1b7c55f899314.html)`Jupyter`优点在于兼容多种开发环境，方便生成汇报文档。</font>
 
   
 - <font face="仿宋" color=#BF5442  size=2>**R语言**</font>  
-  * <font face="仿宋"  size=2>【[谢益辉](http://yihui.name/)】：该大神让我知道`R语言`功能不止于统计分析。</font>
-  * <font face="仿宋"  size=2>【[李东风](http://www.math.pku.edu.cn/teachers/lidf)】：严谨博学的北大教授，博客诸多在线学习资料。</font>
-  * <font face="仿宋"  size=2>【[邱怡轩](https://yixuan.cos.name/cn/)】：`useR`管理员。</font>
+  * <font face="仿宋"  size=2>[谢益辉](http://yihui.name/)：该大神让我知道`R语言`功能不止于统计分析。</font>
+  * <font face="仿宋"  size=2>[李东风](http://www.math.pku.edu.cn/teachers/lidf)：严谨博学的北大教授，博客诸多在线学习资料。</font>
+  * <font face="仿宋"  size=2>[邱怡轩](https://yixuan.cos.name/cn/)：`useR`管理员。</font>
+  * <font face="仿宋"  size=2>[BookDown](https://bookdown.org/)：大量基于`BookDown`编写的`R语言`的教程。</font>
   
   
 - <font face="仿宋" color=#BF5442 size=2>**计量经济学**</font>  
-  * <font face="仿宋"  size=2>【[连享会](https://www.lianxh.cn/news/d4d5cd7220bc7.html)】：国内基于`Stata`学习计量经济学非常不错的资源站。</font>
+  * <font face="仿宋"  size=2>[连享会](https://www.lianxh.cn/news/d4d5cd7220bc7.html)：国内基于`Stata`学习计量经济学非常不错的资源站。</font>
 
 
 <font face="仿宋"  size=3>　　</font>
