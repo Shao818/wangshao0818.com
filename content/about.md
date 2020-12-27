@@ -65,6 +65,12 @@ weight: 50
 
 {{% bilibili "BV1H7411q74s" %}}
 
+
+<div align=center> 
+<font face="华文行楷" color=#BF5442 size=4>巡回检查组</font>
+
+<iframe height=500 width=770 src='https://player.youku.com/embed/XNDk2MzA5OTE1Mg==' frameborder=0 'allowfullscreen'></iframe>
+
 <div align=center> 
 <font face="华文行楷" color=#BF5442 size=4>音乐欣赏</font>
 
