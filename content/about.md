@@ -12,12 +12,14 @@ weight: 50
 ------
 
 
-<font face="仿宋"  size=3>　　计算机门外汉，却痴迷于鼓捣。博客之路从`CSDN`到`简书`再到`cnblogs`再到`Hexo`,目前止于`Hugo`总的来说，由简至繁再至简，止于实质重于形式。</font>　　
+<font face="仿宋"  size=3>　　计算机门外汉，却痴迷于鼓捣。博客之路从`CSDN`到`简书`再到`cnblogs`再到`Hexo`,目前止于`Hugo`。历程可谓：由简至繁再至简，止于对`R语言`的“粘性”和实质重于形式。</font>　  
 
-<font face="仿宋"  size=3>　　本博客用以记录自己的日常杂记、学习经历、经验积累，以期积跬步无以至千里！</font>
+<font face="仿宋"  size=3>　　本博客用以记录自己的日常杂记、学习经历、经验分享，以期积跬步、至千里！</font>
 
+<font face="仿宋"  size=3>　　</font>
 
----
+<font face="仿宋"  size=3>　　</font>
+
 <div align=center> 
 <font face="华文行楷"  size=8>博客链接</font>
 </div>
