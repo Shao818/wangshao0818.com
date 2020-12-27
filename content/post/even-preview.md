@@ -17,8 +17,11 @@ title: 主题使用说明
 weight: 10
 ---
 
+{{% admonition note "EVEN主题介绍" false %}}
+对`Even`主题的使用做详细的介绍。
 
-> 对`Even`主题的使用做详细的介绍。
+{{% /admonition %}}
+
 <!--more-->
 
 # Markdown
