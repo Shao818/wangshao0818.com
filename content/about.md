@@ -56,3 +56,20 @@ weight: 50
 {{% center %}}
 ![](https://gitee.com/shao818/Figure/raw/master/null/%E6%88%AA%E5%9B%BE_20203527093554.png)
 {{% /center %}}
+
+
+
+
+<div align=center> 
+<font face="华文行楷" color=#BF5442 size=4>视频欣赏</font>
+
+{{% bilibili "BV1H7411q74s" %}}
+
+<div align=center> 
+<font face="华文行楷" color=#BF5442 size=4>音乐欣赏</font>
+
+<div align=center> 
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=770 height=500 src="//music.163.com/outchain/player?type=0&id=5187397217&auto=1&height=430"></iframe>
+
+

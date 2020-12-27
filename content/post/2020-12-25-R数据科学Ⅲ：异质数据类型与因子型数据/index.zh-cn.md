@@ -1,5 +1,5 @@
 ---
-title: 数据科学Ⅱ：数据结构Ⅰ
+title: R数据科学Ⅲ：异质数据类型与因子型数据
 author: 王芍
 date: '2020-12-25'
 slug: []
@@ -8,18 +8,23 @@ categories:
   - 数据科学
 tags:
   - R
-  - R Markdown
+  - 数据科学
+  - 数据类型
+  - 异质数据
+  - 因子型数据
 lastmod: '2020-12-25T15:56:52+08:00'
 keywords: []
 description: ''
 comment: no
 toc: true
-weight: 5
+weight: 103
 ---
+{{% center %}} 
+![](https://gitee.com/shao818/Figure/raw/master/null/20201227173200.png)
+{{% /center %}}
+
 
 <!--more-->
-
-{{% bilibili "BV1Bf4y1e7HC" %}}
 
 <div align=center> 
 <font size=5 color=#C46657 face="仿宋">目录</font>
@@ -27,6 +32,7 @@ weight: 5
 
 -------------------------------------------------------------------------------
 
+<font face="仿宋"  size=2>
 
 -   [列表（list）](#列表list)
     -   [创建列表](#创建列表)
@@ -44,6 +50,9 @@ weight: 5
     -   [有用函数](#有用函数)    
     
 -------------------------------------------------------------------------------
+
+<font size=1  face="仿宋">
+
 
 ## 列表（list）
 
@@ -1008,3 +1017,4 @@ cut(Age, breaks=c(0, 18, 45, 100),
 
     ## [1] Middle Young  Middle Old    Old    Old   
     ## Levels: Young Middle Old
+</font>

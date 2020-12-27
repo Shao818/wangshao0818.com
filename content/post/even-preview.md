@@ -14,7 +14,6 @@ tags:
 - Theme preview
 - tag-3
 title: 主题使用说明
-weight: 10
 ---
 
 {{% admonition note "EVEN主题介绍" false %}}

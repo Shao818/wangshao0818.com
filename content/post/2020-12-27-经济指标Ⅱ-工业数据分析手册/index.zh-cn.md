@@ -8,12 +8,12 @@ categories:
 tags:
   - 宏观经济
   - 分析框架
-  - 工业数据
+  - GDP
   - 经济指标
-lastmod: '2020-12-27T12:29:28+08:00'
+lastmod: '2020-12-27T10:25:44+08:00'
 keywords: []
 description: ''
-comment: no
+comment: true
 toc: true
 autoCollapseToc: no
 postMetaInFooter: no
@@ -52,7 +52,7 @@ weight: 2
 
 
 
-　　我们曾介绍过GDP的具体核算流程。按照生产法，需要分别计算出国民经济各行业的增加值，然后加总得到最终的GDP。[详见GDP分析手册](https://mp.weixin.qq.com/s?__biz=MzAwMzI0NTc3NQ==&amp;mid=100000773&amp;idx=1&amp;sn=2ef29e7345ee521723f84fd3d190c0f1&amp;scene=19#wechat_redirect)。
+　　我们曾介绍过GDP的具体核算流程。按照生产法，需要分别计算出国民经济各行业的增加值，然后加总得到最终的GDP。[详见GDP分析手册](http://127.0.0.1:4321/post/2020-12-27-%E7%BB%8F%E6%B5%8E%E6%8C%87%E6%A0%87gdp/)。
 
 　　工业增加值，其实就是GDP核算中的工业部分。
 

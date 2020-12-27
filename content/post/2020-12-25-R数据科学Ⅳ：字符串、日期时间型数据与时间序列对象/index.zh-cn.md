@@ -1,5 +1,5 @@
 ---
-title: 数据科学Ⅰ：数据类型Ⅱ
+title: R数据科学Ⅳ：字符串、日期时间型数据与时间序列对象
 author: 王芍
 date: '2020-12-25'
 slug: []
@@ -8,20 +8,27 @@ categories:
   - 数据科学
 tags:
   - R
-  - R Markdown
+  - 数据科学
+  - 数据类型
+  - 字符串
+  - 日期时间型数据
+  - 时间序列对象
 lastmod: '2020-12-25T15:56:52+08:00'
 keywords: []
 description: ''
 comment: no
 toc: true
-weight: 4
+weight: 104
 ---
 
-![](https://gitee.com/shao818/Figure/raw/master/null/ABTAD0A2EF7324A135F7A1D705AD765A3F43D63062AFA52F47EA6BFA5566B468D32.jpg)
+{{% center %}} 
+![](https://gitee.com/shao818/Figure/raw/master/null/20201227173200.png)
+{{% /center %}}
+
+
 
 <!--more-->
 
-{{% music "1417442423" %}}
 
 <div align=center> 
 <font size=5 color=#C46657 face="仿宋">目录</font>
@@ -29,6 +36,7 @@ weight: 4
 
 -------------------------------------------------------------------------------
 
+<font size=2  face="仿宋">
 
 -   [字符串](#字符串)
     -   [字符串的长度（包含字符个数）](#字符串的长度包含字符个数)
@@ -53,6 +61,7 @@ weight: 4
 
 -------------------------------------------------------------------------------
 
+<font size=1  face="仿宋">
 
 ## 字符串
 
