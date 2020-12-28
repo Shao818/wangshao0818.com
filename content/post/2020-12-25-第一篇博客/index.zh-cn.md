@@ -20,7 +20,11 @@ mathjax: true
 
 <!--more-->
 
-# R代码
+# R代码[^代码]  
+
+
+
+[^代码]:代码
 
 ```{r cars}
 summary(cars)
@@ -32,12 +36,26 @@ plot(pressure)
 
 # 公式
 
-同行公式：$y=x^{2}$,后边一定要有内容
 
-独行公式：
+
+同行公式：$y=x^{2}$,后边一定要有内容[^公式]
+
+独行公式：[^公式]
 $$y=x^{3}$$
+复杂公式：[^公式]
 
+$$\sum_{i=0}^{N} \int_{a}^{b} g(t, i) \mathrm{d} t$$
+$$\begin{bmatrix}
+{a_{11}}&{a_{12}}&{\cdots}&{a_{1n}}\\
+{a_{21}}&{a_{22}}&{\cdots}&{a_{2n}}\\
+{\vdots}&{\vdots}&{\ddots}&{\vdots}\\
+{a_{m1}}&{a_{m2}}&{\cdots}&{a_{mn}}\\
+\end{bmatrix}$$
 
+$$\begin{array}{cc}
+a & b \\
+c
+\end{array}$$
 
 # 插入图片
 
