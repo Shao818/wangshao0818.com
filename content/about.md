@@ -34,7 +34,7 @@ weight: 50
   * <font face="仿宋"  size=2>[李东风](http://www.math.pku.edu.cn/teachers/lidf)：严谨博学的北大教授，博客诸多在线学习资料。</font>
   * <font face="仿宋"  size=2>[邱怡轩](https://yixuan.cos.name/cn/)：`useR`管理员。</font>
   * <font face="仿宋"  size=2>[BookDown](https://bookdown.org/)：大量基于`BookDown`编写的`R语言`的教程。</font>
-  * <font face="仿宋"  size=2>[王诗翔]https://shixiangwang.github.io/home/)：一个`R`语言的大牛，博客有很多干货供我们学习。</font>
+  * <font face="仿宋"  size=2>[王诗翔](https://shixiangwang.github.io/home/)：一个`R`语言的大牛，博客有很多干货供我们学习。</font>
   
   
 - <font face="仿宋" color=#BF5442 size=2>**计量经济学**</font>  
