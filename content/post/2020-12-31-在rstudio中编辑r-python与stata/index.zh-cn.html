@@ -1,0 +1,233 @@
+---
+title: 在Rstudio中编辑R、Python与Stata
+author: 王芍
+date: '2020-12-31'
+slug: []
+categories:
+  - R
+tags:
+  - R
+  - 工具
+lastmod: '2020-12-31T12:55:59+08:00'
+keywords: []
+description: ''
+comment: no
+toc: true
+autoCollapseToc: no
+postMetaInFooter: no
+hiddenFromHomePage: no
+contentCopyright: no
+reward: no
+mathjax: no
+mathjaxEnableSingleDollar: no
+mathjaxEnableAutoNumber: no
+hideHeaderAndFooter: no
+flowchartDiagrams:
+  enable: no
+  options: ''
+sequenceDiagrams:
+  enable: no
+  options: ''
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+<link href="/rmarkdown-libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/anchor-sections/anchor-sections.js"></script>
+
+<div id="TOC">
+true
+</div>
+
+<!--more-->
+<div align="center">
+<font face="华文中宋" color=#C46657 size=5 >目录</font>
+</div>
+<hr />
+<ul>
+<li><a href="#插入不同的代码块">插入不同的代码块</a>
+<ul>
+<li><a href="#插入r代码块">插入<code>R</code>代码块</a></li>
+<li><a href="#插入python代码块">插入<code>Python</code>代码块</a></li>
+<li><a href="#插入stata代码块">插入<code>Stata</code>代码块</a></li>
+</ul></li>
+<li><a href="#r与python的数据交换"><code>R</code>与<code>Python</code>的数据交换</a>
+<ul>
+<li><a href="#由python到r的数据传递">由<code>Python</code>到<code>R</code>的数据传递</a></li>
+<li><a href="#由r到python的数据传递">由<code>R</code>到<code>Python</code>的数据传递</a></li>
+<li><a href="#在-r中运行-stata">在 <code>R</code>中运行 <code>Stata</code></a></li>
+<li><a href="#在-stata中运行r">在 <code>Stata</code>中运行<code>R</code></a></li>
+</ul></li>
+</ul>
+<hr />
+<p><font face="华文中宋" ></p>
+<div id="插入不同的代码块" class="section level1">
+<h1>插入不同的代码块</h1>
+<div id="插入r代码块" class="section level2">
+<h2>插入<code>R</code>代码块</h2>
+<pre class="r"><code>car_data&lt;- head(cars)
+head(car_data)</code></pre>
+<pre><code>##   speed dist
+## 1     4    2
+## 2     4   10
+## 3     7    4
+## 4     7   22
+## 5     8   16
+## 6     9   10</code></pre>
+</div>
+<div id="插入python代码块" class="section level2">
+<h2>插入<code>Python</code>代码块</h2>
+<pre class="python"><code>print(&quot;Hello Python!&quot;)</code></pre>
+<pre><code>## Hello Python!</code></pre>
+<pre class="python"><code>import numpy as np
+a = np.array([[1,2,4.0],[3,6,9]])
+a</code></pre>
+<pre><code>## array([[1., 2., 4.],
+##        [3., 6., 9.]])</code></pre>
+<pre class="python"><code>a.ndim</code></pre>
+<pre><code>## 2</code></pre>
+</div>
+<div id="插入stata代码块" class="section level2">
+<h2>插入<code>Stata</code>代码块</h2>
+<pre class="stata"><code>sysuse auto
+summarize</code></pre>
+<pre><code>## 
+## 
+## . sysuse a(1978 Automobile Data)
+## 
+## . summarize
+## 
+##     Variable |        Obs        Mean    Std. Dev.       Min        Max
+## -------------+---------------------------------------------------------
+##         make |          0
+##        price |         74    6165.257    2949.496       3291      15906
+##          mpg |         74     21.2973    5.785503         12         41
+##        rep78 |         69    3.405797    .9899323          1          5
+##     headroom |         74    2.993243    .8459948        1.5          5
+## -------------+---------------------------------------------------------
+##        trunk |         74    13.75676    4.277404          5         23
+##       weight |         74    3019.459    777.1936       1760       4840
+##       length |         74    187.9324    22.26634        142        233
+##         turn |         74    39.64865    4.399354         31         51
+## displacement |         74    197.2973    91.83722         79        425
+## -------------+---------------------------------------------------------
+##   gear_ratio |         74    3.014865    .4562871       2.19       3.89
+##      foreign |         74    .2972973    .4601885          0          1</code></pre>
+</div>
+</div>
+<div id="r与python的数据交换" class="section level1">
+<h1><code>R</code>与<code>Python</code>的数据交换</h1>
+<div id="由python到r的数据传递" class="section level2">
+<h2>由<code>Python</code>到<code>R</code>的数据传递</h2>
+<pre class="r"><code>library(reticulate)</code></pre>
+<p>Create a variable <code>x</code> in the Python session:</p>
+<pre class="python"><code>x = [1, 2, 3]</code></pre>
+<p>Access the Python variable <code>x</code> in an R code chunk:</p>
+<pre class="r"><code>data_py_to_r1&lt;-py$x;data_py_to_r1</code></pre>
+<pre><code>## [1] 1 2 3</code></pre>
+<pre class="r"><code>data_py_to_r2&lt;-py$a;data_py_to_r2</code></pre>
+<pre><code>##      [,1] [,2] [,3]
+## [1,]    1    2    4
+## [2,]    3    6    9</code></pre>
+</div>
+<div id="由r到python的数据传递" class="section level2">
+<h2>由<code>R</code>到<code>Python</code>的数据传递</h2>
+<pre class="r"><code>py$car_data&lt;-car_data</code></pre>
+<pre class="python"><code>print(car_data)</code></pre>
+<pre><code>##    speed  dist
+## 0    4.0   2.0
+## 1    4.0  10.0
+## 2    7.0   4.0
+## 3    7.0  22.0
+## 4    8.0  16.0
+## 5    9.0  10.0</code></pre>
+</div>
+<div id="在-r中运行-stata" class="section level2">
+<h2>在 <code>R</code>中运行 <code>Stata</code></h2>
+<pre class="r"><code>library(RStata)  ##加载包
+options(&quot;RStata.StataPath&quot; =  &quot;\&quot;C:\\Program Files\\Stata16\\StataMP-64\&quot;&quot;) 
+options(&quot;RStata.StataVersion&quot; = 16)  ##设置版本</code></pre>
+<pre class="r"><code>stata_src &lt;- &quot; 
+sysuse auto, clear
+reg mpg weight &quot;</code></pre>
+<pre class="r"><code>stata(stata_src)</code></pre>
+<pre><code>## .  
+## . sysuse auto, clear
+## (1978 Automobile Data)
+## . reg mpg weight 
+## 
+##       Source |       SS           df       MS      Number of obs   =        74
+## -------------+----------------------------------   F(1, 72)        =    134.62
+##        Model |   1591.9902         1   1591.9902   Prob &gt; F        =    0.0000
+##     Residual |  851.469256        72  11.8259619   R-squared       =    0.6515
+## -------------+----------------------------------   Adj R-squared   =    0.6467
+##        Total |  2443.45946        73  33.4720474   Root MSE        =    3.4389
+## 
+## ------------------------------------------------------------------------------
+##          mpg |      Coef.   Std. Err.      t    P&gt;|t|     [95% Conf. Interval]
+## -------------+----------------------------------------------------------------
+##       weight |  -.0060087   .0005179   -11.60   0.000    -.0070411   -.0049763
+##        _cons |   39.44028   1.614003    24.44   0.000     36.22283    42.65774
+## ------------------------------------------------------------------------------</code></pre>
+</div>
+<div id="在-stata中运行r" class="section level2">
+<h2>在 <code>Stata</code>中运行<code>R</code></h2>
+<pre class="stata"><code>clear
+webuse grunfeld,clear //利用webuse从网络读取数据
+list in 1/10          // 显示该数据集的前10行
+xtset company year, yearly //设置面板数据格式
+xtreg invest mvalue kstock, fe  //fe表示固定效应</code></pre>
+<pre><code>## 
+## 
+## . cl. webuse grunfeld,clear //利用webuse从网络读取数据
+## 
+## . list in 1/10          // 显示该数据集的前10行
+## 
+##      +--------------------------------------------------+
+##      | company   year   invest   mvalue   kstock   time |
+##      |--------------------------------------------------|
+##   1. |       1   1935    317.6   3078.5      2.8      1 |
+##   2. |       1   1936    391.8   4661.7     52.6      2 |
+##   3. |       1   1937    410.6   5387.1    156.9      3 |
+##   4. |       1   1938    257.7   2792.2    209.2      4 |
+##   5. |       1   1939    330.8   4313.2    203.4      5 |
+##      |--------------------------------------------------|
+##   6. |       1   1940    461.2   4643.9    207.2      6 |
+##   7. |       1   1941      512   4551.2    255.2      7 |
+##   8. |       1   1942      448   3244.1    303.7      8 |
+##   9. |       1   1943    499.6   4053.7    264.1      9 |
+##  10. |       1   1944    547.5   4379.3    201.6     10 |
+##      +--------------------------------------------------+
+## 
+## . xtset company year, yearly //设置面板数据格式
+##        panel variable:  company (strongly balanced)
+##         time variable:  year, 1935 to 1954
+##                 delta:  1 year
+## 
+## . xtreg invest mvalue kstock, fe  //fe表示固定效应
+## 
+## Fixed-effects (within) regression               Number of obs     =        200
+## Group variable: company                         Number of groups  =         10
+## 
+## R-sq:                                           Obs per group:
+##      within  = 0.7668                                         min =         20
+##      between = 0.8194                                         avg =       20.0
+##      overall = 0.8060                                         max =         20
+## 
+##                                                 F(2,188)          =     309.01
+## corr(u_i, Xb)  = -0.1517                        Prob &gt; F          =     0.0000
+## 
+## ------------------------------------------------------------------------------
+##       invest |      Coef.   Std. Err.      t    P&gt;|t|     [95% Conf. Interval]
+## -------------+----------------------------------------------------------------
+##       mvalue |   .1101238   .0118567     9.29   0.000     .0867345    .1335131
+##       kstock |   .3100653   .0173545    17.87   0.000     .2758308    .3442999
+##        _cons |  -58.74393   12.45369    -4.72   0.000    -83.31086     -34.177
+## -------------+----------------------------------------------------------------
+##      sigma_u |  85.732501
+##      sigma_e |  52.767964
+##          rho |  .72525012   (fraction of variance due to u_i)
+## ------------------------------------------------------------------------------
+## F test that all u_i=0: F(9, 188) = 49.18                     Prob &gt; F = 0.0000</code></pre>
+<p></font></p>
+</div>
+</div>

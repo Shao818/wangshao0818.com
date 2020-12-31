@@ -1,5 +1,22 @@
-在Rstudio中编辑R、Python与Stata
-================
+---
+title: 在Rstudio中编辑R、Python与Stata
+author: 王芍
+date: '2020-12-31'
+slug: []
+categories:
+  - R
+tags:
+  - R
+  - 工具
+lastmod: '2020-12-31T12:55:59+08:00'
+toc: true
+---
+
+<!--more-->
+
+<div align=center> 
+<font face="华文中宋" color=#C46657 size=5 >目录</font></div>
+------- 
 
 -   [插入不同的代码块](#插入不同的代码块)
     -   [插入`R`代码块](#插入r代码块)
@@ -10,12 +27,15 @@
     -   [由`R`到`Python`的数据传递](#由r到python的数据传递)
     -   [在 `R`中运行 `Stata`](#在-r中运行-stata)
     -   [在 `Stata`中运行`R`](#在-stata中运行r)
+------- 
+<font face="华文中宋" >
+
 
 # 插入不同的代码块
 
 ## 插入`R`代码块
 
-``` r
+```r
 car_data<- head(cars)
 head(car_data)
 ```
@@ -30,13 +50,13 @@ head(car_data)
 
 ## 插入`Python`代码块
 
-``` python
+```python
 print("Hello Python!")
 ```
 
     ## Hello Python!
 
-``` python
+```python
 import numpy as np
 a = np.array([[1,2,4.0],[3,6,9]])
 a
@@ -45,7 +65,7 @@ a
     ## array([[1., 2., 4.],
     ##        [3., 6., 9.]])
 
-``` python
+```python
 a.ndim
 ```
 
@@ -53,7 +73,7 @@ a.ndim
 
 ## 插入`Stata`代码块
 
-``` stata
+```stata
 sysuse auto
 summarize
 ```
@@ -85,25 +105,25 @@ summarize
 
 ## 由`Python`到`R`的数据传递
 
-``` r
+```r
 library(reticulate)
 ```
 
 Create a variable `x` in the Python session:
 
-``` python
+```python
 x = [1, 2, 3]
 ```
 
 Access the Python variable `x` in an R code chunk:
 
-``` r
+```r
 data_py_to_r1<-py$x;data_py_to_r1
 ```
 
     ## [1] 1 2 3
 
-``` r
+```r
 data_py_to_r2<-py$a;data_py_to_r2
 ```
 
@@ -113,11 +133,11 @@ data_py_to_r2<-py$a;data_py_to_r2
 
 ## 由`R`到`Python`的数据传递
 
-``` r
+```r
 py$car_data<-car_data
 ```
 
-``` python
+```python
 print(car_data)
 ```
 
@@ -131,19 +151,19 @@ print(car_data)
 
 ## 在 `R`中运行 `Stata`
 
-``` r
+```r
 library(RStata)  ##加载包
 options("RStata.StataPath" =  "\"C:\\Program Files\\Stata16\\StataMP-64\"") 
 options("RStata.StataVersion" = 16)  ##设置版本
 ```
 
-``` r
+```r
 stata_src <- " 
 sysuse auto, clear
 reg mpg weight "
 ```
 
-``` r
+```r
 stata(stata_src)
 ```
 
@@ -168,7 +188,7 @@ stata(stata_src)
 
 ## 在 `Stata`中运行`R`
 
-``` stata
+```stata
 clear
 webuse grunfeld,clear //利用webuse从网络读取数据
 list in 1/10          // 显示该数据集的前10行
@@ -228,27 +248,6 @@ xtreg invest mvalue kstock, fe  //fe表示固定效应
     ##          rho |  .72525012   (fraction of variance due to u_i)
     ## ------------------------------------------------------------------------------
     ## F test that all u_i=0: F(9, 188) = 49.18                     Prob > F = 0.0000
-
-``` stata
-rcall:library(plm)   //加载包
-rcall:data("Grunfeld", package="plm")  //调用自带数据集
-rcall:head(Grunfeld,10)  //列出前十行
-rcall:zz <- plm(inv ~ value + capital ,data = Grunfeld, index = c("firm")) 
-rcall:summary(zz)
-```
-
-    ## 
-    ## 
-    ## . rcall:library(plm)   //request ignored because of batch mode
-    ## 
-    ## . rcall:data("Grunfeld", package="plm")  //调用自带数据集
-    ## request ignored because of batch mode
-    ## 
-    ## . rcall:head(Grunfeld,10)  //列出前十行
-    ## request ignored because of batch mode
-    ## 
-    ## . rcall:zz <- plm(inv ~ value + capital ,data = Grunfeld, index = c("firm")) 
-    ## request ignored because of batch mode
-    ## 
-    ## . rcall:summary(zz)
-    ## request ignored because of batch mode
+    
+    
+</font>
