@@ -27,7 +27,8 @@ weight: 60
 ------
 - <font face="华文中宋" color=#BF5442 size=3>**IDE**</font>  
   * <font face="华文中宋"  size=2>[Jupyter](https://www.lianxh.cn/news/1b7c55f899314.html)：`Jupyter`优点在于兼容多种开发环境，方便生成汇报文档。</font>
-
+  * <font face="华文中宋"  size=2>[SoS](https://vatlab.github.io/sos-docs/running.html#content)：</font>
+  * <font face="华文中宋"  size=2>[Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)：该站提供了`Jupyter`所支持的核。</font>
   
 - <font face="华文中宋" color=#BF5442  size=2>**R语言**</font>  
   * <font face="华文中宋"  size=2>[谢益辉](http://yihui.name/)：该大神让我知道`R语言`功能不止于统计分析。</font>
@@ -45,7 +46,9 @@ weight: 60
 
 - <font face="华文中宋" color=#BF5442 size=2>**排版工具**</font>  
   * <font face="华文中宋"  size=2>[邓东升](https://ddswhu.me/resource/)：`LATEX`模板`ElegantNote`的开发与维护组核心成员之一。</font>
-  * <font face="华文中宋"  size=2>[PanBook](https://github.com/annProg/PanBook)：该站提供了`Markdown`书写转PDF的不错模板。</font>
+  * <font face="华文中宋"  size=2>[PanBook](https://github.com/annProg/PanBook)：该站提供了`Jupyter`中嵌入多种程序代码的途径。</font>
+  
+  
 
 
 
