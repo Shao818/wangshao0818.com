@@ -48,8 +48,20 @@ weight: 60
   * <font face="华文中宋"  size=2>[邓东升](https://ddswhu.me/resource/)：`LATEX`模板`ElegantNote`的开发与维护组核心成员之一。</font>
   * <font face="华文中宋"  size=2>[PanBook](https://github.com/annProg/PanBook)：该站提供了`Markdown`转`PDF`的一套不错模板。</font>
   
-  
+<div align=center> 
+<font face="华文行楷" color=#BF5442 size=4>资源链接</font>
+</div>
 
+RBlog | R教程| IDE|计量经济学|排版工具|Python|数据库|
+ |:-: | :-: | :-:| :-:| :-:| :-:| :-:|
+[谢益辉](http://yihui.name/)|[ISLR](https://statlearning.com/code.html)|[Jupyter](https://www.lianxh.cn/news/1b7c55f899314.html)|[连享会](https://www.lianxh.cn/news/d4d5cd7220bc7.html) |[邓东升](https://ddswhu.me/resource/) |[PanBook](https://github.com/annProg/PanBook) |[CSMR](https://cn.gtadata.com/#/support/doc)
+ [楚新元](https://cxy.rbind.io/) |[BookDown](https://bookdown.org/)|[SoS](https://vatlab.github.io/sos-docs/running.html#content) |  |[PanBook](https://github.com/annProg/PanBook)|[CSMR](https://cn.gtadata.com/#/support/doc)|[聚　宽](https://www.joinquant.com/user/login/index?redirect=/view/user/floor?type=mainFloor)
+ [王诗翔](https://shixiangwang.github.io/home/)|  |[Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)| | | | [Tushare](https://tushare.pro/document/1)
+ [邱怡轩](https://yixuan.cos.name/cn/)| |||||[Akshare](https://www.akshare.xyz/zh_CN/latest/introduction.html) 
+ [李东风](http://www.math.pku.edu.cn/teachers/lidf)|    
+  [张　丹](http://blog.fens.me/series-r/)|
+ 
+ 
 
 
 
