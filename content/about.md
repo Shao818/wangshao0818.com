@@ -37,8 +37,8 @@ weight: 60
   * <font face="华文中宋"  size=2>[BookDown](https://bookdown.org/)：大量基于`BookDown`编写的`R语言`的教程。</font>
   * <font face="华文中宋"  size=2>[王诗翔](https://shixiangwang.github.io/home/)：一个`R`语言的大牛，博客有很多干货供我们学习。</font>
   * <font face="华文中宋"  size=2>[廖雪峰](https://www.liaoxuefeng.com/)：博客提供大量教程，值得常去学习。</font>
-  * <font face="华文中宋"  size=2>[楚新元](https://www.liaoxuefeng.com/)：2018年9月辞职攻读新疆财经大学金融专业博士，`R`语言粘性用户。</font>
-  
+  * <font face="华文中宋"  size=2>[楚新元](https://cxy.rbind.io/)：2018年9月辞职攻读新疆财经大学金融专业博士，`R`语言粘性用户。</font>
+  * <font face="华文中宋"  size=2>[`ISLR`](https://statlearning.com/code.html)：统计学习导论在线教程与代码。</font>
   
 - <font face="华文中宋" color=#BF5442 size=2>**计量经济学**</font>  
   * <font face="华文中宋"  size=2>[连享会](https://www.lianxh.cn/news/d4d5cd7220bc7.html)：国内基于`Stata`学习计量经济学非常不错的资源站。</font>
