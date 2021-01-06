@@ -12,13 +12,13 @@ tags:
 lastmod: '2021-01-06T17:48:32+08:00'
 keywords: []
 description: ''
-comment: no
+comment: true
 toc: true
 autoCollapseToc: no
 postMetaInFooter: no
 hiddenFromHomePage: no
 contentCopyright: no
-reward: no
+reward: true
 mathjax: no
 mathjaxEnableSingleDollar: no
 mathjaxEnableAutoNumber: no
