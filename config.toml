@@ -175,9 +175,8 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
   [params.reward]                                         # 文章打赏
     enable = false
-    wechat = "/path/to/your/wechat-qr-code.png"           # 微信二维码
-    alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
-
+    wechat = "https://gitee.com/shao818/Figure/raw/master/null/%E6%88%AA%E5%9B%BE_20215106105156.png"           # 微信二维码/path/to/your/wechat-qr-code.png
+    alipay = "https://gitee.com/shao818/Figure/raw/master/null/%E6%88%AA%E5%9B%BE_20215206105231.png"           # 支付宝二维码
   [params.social]                                         # 社交链接
     a-email = "mailto:wang_shao0818@163.com"
  #   b-stack-overflow = "http://localhost:1313"
