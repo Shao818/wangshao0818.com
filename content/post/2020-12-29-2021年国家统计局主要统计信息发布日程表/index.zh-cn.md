@@ -15,12 +15,12 @@ toc: no
 {{% center %}} 
 ![](https://gitee.com/shao818/Figure/raw/master/null/%E6%88%AA%E5%9B%BE_20205529085541.png)
 {{% /center %}}
-<div align=center><font color=#BF5442 size=1> 2021年国家统计局主要统计信息发布日程表</font> </div>
+<div align=center><font color=#BF5442 size=2 face="华文中宋"> 2021年国家统计局主要统计信息发布日程表</font> </div>
 
 
 
 <!--more-->
-
+<font face="华文中宋" >
 
 注：
 
@@ -48,4 +48,5 @@ toc: no
 
 - 12.国家统计局数据发布库（http://data.stats.gov.cn/）于数据发布后更新主要指标数据，3个工作日左右更新全部进度指标数据；年度数据分三次更新主要指标数据，在《2020年国民经济和社会发展统计公报》发布和《中国统计摘要2021》出版5个工作日左右分别更新主要数据，在《中国统计年鉴-2021》出版后更新快速查询主要数据，并于2个月后加载年鉴光盘。
 
-- 13.国家统计局官方微博@中国统计，微信公众号“统计微讯”和移动应用“数据中国”于数据发布后及时公布新闻稿有关内容，欢迎关注使用；二维码扫描网址：http://www.stats.gov.cn/tjfw/tjyd/。
+
+</font>
