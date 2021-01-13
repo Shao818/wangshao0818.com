@@ -72,11 +72,12 @@ RBlog | R教程|计量经济学|Python|
 
 IDE|排版工具|数据库|
  |:-: | :-: | :-:|
-[Jupyter](https://www.lianxh.cn/news/1b7c55f899314.html)|[邓东升](https://ddswhu.me/resource/) |[CSMR](https://cn.gtadata.com/#/support/doc) |  
+[Jupyter](https://www.lianxh.cn/news/1b7c55f899314.html)|[ElegantLaTeX](https://github.com/ElegantLaTeX/ElegantNote)|[CSMR](https://cn.gtadata.com/#/support/doc) |  
 [SoS](https://vatlab.github.io/sos-docs/running.html#content)|[PanBook](https://github.com/annProg/PanBook) |[聚　宽](https://www.joinquant.com/user/login/index?redirect=/view/user/floor?type=mainFloor)  
-  [Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)||[Tushare](https://tushare.pro/document/1)|  
-  |||[Akshare](https://www.akshare.xyz/zh_CN/latest/introduction.html) 
-
+  [Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)|[Chinese TeX Society](https://github.com/CTeX-org)|[Tushare](https://tushare.pro/document/1)|  
+  ||[邓东升](https://ddswhu.me/resource/) ，[Dongsheng Deng](https://github.com/EthanDeng)|[Akshare](https://www.akshare.xyz/zh_CN/latest/introduction.html)|
+  ||[ElegantBookdown](https://github.com/XiangyunHuang/ElegantBookdown) |
+ ||[bookdownplus](https://github.com/pzhaonet/bookdownplus) |
 
 
 
@@ -93,17 +94,4 @@ IDE|排版工具|数据库|
 
 
 
-<div align=center> 
-<font face="华文行楷" color=#BF5442 size=4>视频欣赏</font>
-
-{{% bilibili "BV1H7411q74s" %}}
-
-
-
-
-<div align=center> 
-<font face="华文行楷" color=#BF5442 size=4>音乐欣赏</font>
-<div align=center> 
-
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=770 height=500 src="//music.163.com/outchain/player?type=0&id=5187397217&auto=1&height=430"></iframe>
 

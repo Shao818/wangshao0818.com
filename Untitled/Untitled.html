@@ -1,0 +1,110 @@
+---
+title: Short Paper
+author:
+  - name: Alice Anonymous
+    email: alice@example.com
+    affiliation: Some Institute of Technology
+    footnote: 1
+  - name: Bob Security
+    email: bob@example.com
+    affiliation: Another University
+  - name: Cat Memes
+    email: cat@example.com
+    affiliation: Another University
+    footnote: 2
+  - name: Derek Zoolander
+    email: derek@example.com
+    affiliation: Some Institute of Technology
+    footnote: 2
+address:
+  - code: Some Institute of Technology
+    address: Department, Street, City, State, Zip
+  - code: Another University
+    address: Department, Street, City, State, Zip
+footnote:
+  - code: 1
+    text: "Corresponding Author"
+  - code: 2
+    text: "Equal contribution"
+abstract: |
+  This is the abstract.
+
+  It consists of two paragraphs.
+
+journal: "An awesome journal"
+date: "2021-01-12"
+bibliography: mybibfile.bib
+#linenumbers: true
+#numbersections: true
+csl: elsevier-harvard.csl
+output: rticles::elsevier_article
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p><em>Text based on elsarticle sample manuscript, see <a href="http://www.elsevier.com/author-schemas/latex-instructions#elsarticle">http://www.elsevier.com/author-schemas/latex-instructions#elsarticle</a></em></p>
+<div id="the-elsevier-article-class" class="section level1">
+<h1>The Elsevier article class</h1>
+<div id="installation" class="section level4">
+<h4>Installation</h4>
+<p>If the document class <em>elsarticle</em> is not available on your computer,
+you can download and install the system package <em>texlive-publishers</em>
+(Linux) or install the LaTeX package <em>elsarticle</em> using the package
+manager of your TeX installation, which is typically TeX Live or MikTeX.</p>
+</div>
+<div id="usage" class="section level4">
+<h4>Usage</h4>
+<p>Once the package is properly installed, you can use the document class
+<em>elsarticle</em> to create a manuscript. Please make sure that your
+manuscript follows the guidelines in the Guide for Authors of the
+relevant journal. It is not necessary to typeset your manuscript in
+exactly the same way as an article, unless you are submitting to a
+camera-ready copy (CRC) journal.</p>
+</div>
+<div id="functionality" class="section level4">
+<h4>Functionality</h4>
+<p>The Elsevier article class is based on the standard article class and
+supports almost all of the functionality of that class. In addition, it
+features commands and options to format the</p>
+<ul>
+<li><p>document style</p></li>
+<li><p>baselineskip</p></li>
+<li><p>front matter</p></li>
+<li><p>keywords and MSC codes</p></li>
+<li><p>theorems, definitions and proofs</p></li>
+<li><p>lables of enumerations</p></li>
+<li><p>citation style and labeling.</p></li>
+</ul>
+</div>
+</div>
+<div id="front-matter" class="section level1">
+<h1>Front matter</h1>
+<p>The author names and affiliations could be formatted in two ways:</p>
+<ol style="list-style-type: decimal">
+<li><p>Group the authors per affiliation.</p></li>
+<li><p>Use footnotes to indicate the affiliations.</p></li>
+</ol>
+<p>See the front matter of this document for examples. You are recommended
+to conform your choice to the journal you are submitting to.</p>
+</div>
+<div id="bibliography-styles" class="section level1">
+<h1>Bibliography styles</h1>
+<p>There are various bibliography styles available. You can select the
+style of your choice in the preamble of this document. These styles are
+Elsevier styles based on standard styles like Harvard and Vancouver.
+Please use BibTeX to generate your bibliography and include DOIs
+whenever available.</p>
+<p>Here are two sample references: <span class="citation">Feynman and Vernon Jr. (1963; Dirac, 1953)</span>.</p>
+</div>
+<div id="references" class="section level1 unnumbered">
+<h1>References</h1>
+<div id="refs" class="references hanging-indent">
+<div id="ref-Dirac1953888">
+<p>Dirac, P.A.M., 1953. The lorentz transformation and absolute time. Physica 19, 888–896. doi:<a href="https://doi.org/10.1016/S0031-8914(53)80099-6">10.1016/S0031-8914(53)80099-6</a></p>
+</div>
+<div id="ref-Feynman1963118">
+<p>Feynman, R.P., Vernon Jr., F.L., 1963. The theory of a general quantum system interacting with a linear dissipative system. Annals of Physics 24, 118–173. doi:<a href="https://doi.org/10.1016/0003-4916(63)90068-X">10.1016/0003-4916(63)90068-X</a></p>
+</div>
+</div>
+</div>
