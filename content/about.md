@@ -61,8 +61,9 @@ RBlog | R教程|计量经济学|Python|
  [王诗翔](https://shixiangwang.github.io/home/)| [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/)|[Wooldridge:R for Introductory Econometrics](http://www.urfie.net/downloads.html)| | | | [Tushare](https://tushare.pro/document/1)
  [邱怡轩](https://yixuan.cos.name/cn/)|[郭晓：R数据分析指南与速查手册](https://bookdown.org/wangminjie/R4DS/#) |[Oswald et al.:Introduction to Econometrics with R](https://scpoecon.github.io/ScPoEconometrics/index.html)||||[Akshare](https://www.akshare.xyz/zh_CN/latest/introduction.html) 
  [李东风](http://www.math.pku.edu.cn/teachers/lidf)|[王敏杰：数据科学中的 R 语言](https://bookdown.org/wangminjie/R4DS/#) |[Hanck et al.:Introduction to Econometrics with R](https://www.econometrics-with-r.org/index.html)   
-  [张　丹](http://blog.fens.me/series-r/)|[谢益辉、黄湘云、赵鹏：现代统计图形](https://bookdown.org/xiangyun/msg/)
- 
+  [张　丹](http://blog.fens.me/series-r/)|[谢益辉、黄湘云、赵鹏：现代统计图形](https://bookdown.org/xiangyun/msg/)|||
+  [张敬信](https://github.com/zhjx19)||||
+   [赵鹏](https://pzhao.org/zh/)[的Github](https://github.com/pzhaonet)||||
  
 <div align=center> 
 <font face="华文行楷" color=#BF5442 size=4>工具链接</font>
@@ -77,7 +78,7 @@ IDE|排版工具|数据库|
   [Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)|[Chinese TeX Society](https://github.com/CTeX-org)|[Tushare](https://tushare.pro/document/1)|  
   ||[邓东升](https://ddswhu.me/resource/) ，[Dongsheng Deng](https://github.com/EthanDeng)|[Akshare](https://www.akshare.xyz/zh_CN/latest/introduction.html)|
   ||[ElegantBookdown](https://github.com/XiangyunHuang/ElegantBookdown) |
- ||[bookdownplus](https://github.com/pzhaonet/bookdownplus) |
+ ||[bookdownplus](https://github.com/pzhaonet/bookdownplus)[;BOOKDOWNPLUS GALLERY](https://bookdownplus.netlify.app/portfolio/paper_zh/)|
 
 
 
