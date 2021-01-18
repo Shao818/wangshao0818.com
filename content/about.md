@@ -71,10 +71,10 @@ RBlog | R教程|计量经济学|Python|
 
 ------
 
-IDE|排版工具|数据库|
- |:-: | :-: | :-:|
-[Jupyter](https://www.lianxh.cn/news/1b7c55f899314.html)|[ElegantLaTeX](https://github.com/ElegantLaTeX/ElegantNote)|[CSMR](https://cn.gtadata.com/#/support/doc) |  
-[SoS](https://vatlab.github.io/sos-docs/running.html#content)|[PanBook](https://github.com/annProg/PanBook) |[聚　宽](https://www.joinquant.com/user/login/index?redirect=/view/user/floor?type=mainFloor)  
+IDE|排版工具|数据库|小工具|
+ |:-: | :-: | :-:|:-:|
+[Jupyter](https://www.lianxh.cn/news/1b7c55f899314.html)|[ElegantLaTeX](https://github.com/ElegantLaTeX/ElegantNote)|[CSMR](https://cn.gtadata.com/#/support/doc) |  [Everything](https://www.voidtools.com/zh-cn/downloads/)
+[SoS](https://vatlab.github.io/sos-docs/running.html#content)|[PanBook](https://github.com/annProg/PanBook) |[聚　宽](https://www.joinquant.com/user/login/index?redirect=/view/user/floor?type=mainFloor) |[天　若](https://tianruoocr.cn/ )
   [Jupyter kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)|[Chinese TeX Society](https://github.com/CTeX-org)|[Tushare](https://tushare.pro/document/1)|  
   ||[邓东升](https://ddswhu.me/resource/) ，[Dongsheng Deng](https://github.com/EthanDeng)|[Akshare](https://www.akshare.xyz/zh_CN/latest/introduction.html)|
   ||[ElegantBookdown](https://github.com/XiangyunHuang/ElegantBookdown) |
