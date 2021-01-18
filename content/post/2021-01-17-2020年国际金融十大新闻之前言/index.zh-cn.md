@@ -30,6 +30,7 @@ sequenceDiagrams:
   enable: no
   options: ''
 weight: 001
+comment: true
 ---
 
 
