@@ -13,7 +13,7 @@ tags:
 lastmod: '2020-12-27T10:25:44+08:00'
 keywords: []
 description: ''
-comment: true
+comment: no
 toc: true
 autoCollapseToc: no
 postMetaInFooter: no
