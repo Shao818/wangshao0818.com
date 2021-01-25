@@ -1,39 +1,36 @@
 ---
-title: "一文看懂我国外债监管主要规则"
-date: 2021-01-25T15:53:05+08:00
-lastmod: 2021-01-25T15:53:05+08:00
-draft: true
+title: '外债'
+author: 王芍
+date: '2021-01-17'
+slug: []
+categories: 
+ - 国际金融
+ - 外债
+tags: 
+  - 国际金融
+  - 外债
+lastmod: '2021-01-17T22:33:09+08:00'
 keywords: []
-description: ""
-tags: []
-categories: []
-author: ""
-
-# You can also close(false) or open(true) something for this content.
-# P.S. comment can only be closed
-comment: false
+description: ''
+comment: no
 toc: yes
-
-# You can also define another contentCopyright. e.g. contentCopyright: "This is another copyright."
-contentCopyright: false
-reward: false
-mathjax: yes
-
-# You unlisted posts you might want not want the header or footer to show
-hideHeaderAndFooter: false
-
-# You can enable or disable out-of-date content warning for individual post.
-# Comment this out to use the global config.
-#enableOutdatedInfoWarning: false
-
+autoCollapseToc: yes
+postMetaInFooter: no
+hiddenFromHomePage: no
+contentCopyright: no
+reward: no
+mathjax: no
+mathjaxEnableSingleDollar: no
+mathjaxEnableAutoNumber: no
+hideHeaderAndFooter: no
 flowchartDiagrams:
-  enable: false
-  options: ""
-
-sequenceDiagrams: 
-  enable: false
-  options: ""
-
+  enable: no
+  options: ''
+sequenceDiagrams:
+  enable: no
+  options: ''
+weight: 001
+comment: no
 ---
 <font face="华文中宋" size=2 >
 
