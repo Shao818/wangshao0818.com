@@ -29,7 +29,7 @@ flowchartDiagrams:
 sequenceDiagrams:
   enable: no
   options: ''
-weight: 001
+weight: 002
 comment: no
 ---
 <font face="华文中宋" size=2 >
