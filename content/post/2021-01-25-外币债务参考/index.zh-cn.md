@@ -31,6 +31,7 @@ sequenceDiagrams:
   options: ''
 weight: 002
 comment: no
+mathjax: true
 ---
 <font face="华文中宋" size=2 >
 
