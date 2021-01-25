@@ -14,21 +14,7 @@ keywords: []
 description: ''
 comment: no
 toc: yes
-autoCollapseToc: yes
-postMetaInFooter: no
-hiddenFromHomePage: no
-contentCopyright: no
 reward: no
-mathjax: no
-mathjaxEnableSingleDollar: no
-mathjaxEnableAutoNumber: no
-hideHeaderAndFooter: no
-flowchartDiagrams:
-  enable: no
-  options: ''
-sequenceDiagrams:
-  enable: no
-  options: ''
 weight: 002
 comment: no
 mathjax: true
@@ -48,7 +34,7 @@ mathjax: true
 # <font face="华文中宋" color=blue>一、外债监管模式 </font>   
 
 
-## <font face="华文中宋" color=blue>（一）我国外债目前从宏观上采用全口径宏观审慎监管模式</font>    
+##  <font face="华文中宋" color=blue>（一）我国外债目前从宏观上采用全口径宏观审慎监管模式</font>    
 
 
 ### <font face="华文中宋" color=blue>1、适用范围  </font>
