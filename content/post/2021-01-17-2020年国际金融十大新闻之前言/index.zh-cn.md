@@ -43,10 +43,10 @@ comment: no
 　　
 
 
-<div align=center> <font face="华文中宋" size=5>后疫情时代全球经济的破题之道</font></div>    
+<div align=center> <font face="思源宋体 CN" size=5>后疫情时代全球经济的破题之道</font></div>    
 
   
-<div align=right><font face="华文中宋" >——2020年全球经济金融回顾与展望
+<div align=right><font face="思源宋体 CN" >——2020年全球经济金融回顾与展望
 中国银行董事长 刘连舸</font></div>  
 
 <font face="思源宋体 CN" size=2>
